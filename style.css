@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    margin: auto;
+}
+.custom-width{
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 20px;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.nav-bg{
+    background-color:#21243D ;
+}
+nav .search-icon i{
+    color:white;
+    font-size:20px;
+    
+}
+ /*nav-end*/
+
+.banner-inner{
+    background:url(img/herobanner.png) no-repeat center/cover ;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-inner .banner-content h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner-inner .banner-content p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+    width: 40%;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.banner-inner .banner-content a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    width: 40%;
+    padding: 12px 60px;
+    background-color: #21243D;
+    border-radius: 50px;
+    display: inline;
+}
+
+
+/*banner-inner-end*/
+
+.popular-menu .popular-menu-bg{
+    background-color: #21243D;
+    padding: 50px 0px;
+    position: relative;
+    z-index: -1;
+
+}
+.popular-menu .dot img{
+    position: absolute;
+    top: -25px;
+    left: 600px;
+    transform: rotate(90deg);
+}
+img.wave{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+img.circle-corner{
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: 1;
+}
+img.full-circle{
+    position: absolute;
+    left: -80px;
+    top: 60%;
+}
+img.dot{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+img.wave-hape{
+    position: absolute;
+    right: 0;
+    top: 90%;
+}
+
+.popular-menu .popular-menu-title{
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+}
+
+.popular-menu .popular-menu-title h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.popular-menu .popular-menu-title p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 0px 200px;
+}
+.popular-menu .popular-menu-content{
+    text-align: center;
+    color: white;
+    margin-bottom:20px;
+}
+  
+.popular-menu .popular-menu-content img{
+    padding: 20px;
+
+}
+.popular-menu .popular-menu-content h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.popular-menu .popular-menu-content p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 30px;
+
+}
+/*popular-menu-end*/
+
+
+
+.sushi{
+    height: 700px;
+    background-color:#FFD17E ;
+}
+.sushi-bg{
+    padding: 10px;
+    position: relative;
+    z-index:1;
+}
+img.dot1{
+    position: absolute;
+    top:80% ;
+    left:30px ;
+}
+img.dot2{
+    position: absolute;
+    top:30px;
+    right:30px;
+}
+img.undersusi{
+    position:absolute;
+    top:12% ;
+    left: 14%;
+    z-index: -1;
+}
+img.undersusicorner{
+    position:absolute;
+    top:80%;
+    right:0;
+}
+img.wavepurple{
+    position: absolute;
+    top:20%;
+    left: 50%;
+}
+
+.sushi .sushi-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.sushi .sushi-inner img{
+    width: 400px;
+     height: 400px;
+    margin-top: 150px;
+}
+
+.sushi .sushi-title{
+    padding: 50px 180px;
+       
+}
+
+.sushi .sushi-title h1{
+    
+    font-size: 70px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.sushi .sushi-title p{
+    font-size: 25px;
+    font-weight: 400;
+    color:black;
+    margin-bottom: 50px; 
+    
+}
+.sushi .sushi-title a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 50px;
+    background-color: #21243D;
+    border-radius: 50px;
+    display: inline;
+    
+}
+
+/*sushi-end*/
+
+
+.statistics{
+    height: 700px;
+    background-color: #21243D;
+    position: relative;
+}
+.statistics .statistics-bg{
+    padding: 10px;
+
+}
+.statistics-bg .dot-shape img{
+    position: absolute;
+    left: 10%;
+    top: -5px;
+    transform: rotate(90deg);
+}
+.statistics-bg .fullcircle img{
+    position: absolute;
+    left: 30%;
+    top: 85%;
+}
+.statistics-bg .wave1 img{
+    position: absolute;
+    left: 8%;
+    top: 26%;
+}
+.statistics-bg .full-circle img{
+    position: absolute;
+    right: 7%;
+    top: 10%;
+}
+.statistics-bg .dotshape img{
+    position: absolute;
+    right: 36%;
+    top: 80%;
+    transform: rotate(90deg);
+}
+.statistics-bg .wave2 img{
+    position: absolute;
+    right: 5%;
+    top: 85%;
+}
+.statistics .statistics-title{
+    text-align: center;
+    color: white;
+    margin-top:5%;
+
+    
+}
+.statistics .statistics-title h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.statistics .statistics-title p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding: 0px 140px;
+}
+
+
+
+.statistics .statistics-content{
+     margin-left:60px;
+     top:120px;
+     color: white;
+     margin-top:5%;
+     font-size: 40px;
+     padding:70px 140px;
+   
+     width:5px;
+     border-radius:50%;
+     border:5px solid white;
+
+}
+.statistics .statistics-content h3{
+    margin-left:-40px;
+    font-size: 50px;
+    font-weight:900;
+
+}
+.statistics .statistics-content h4{
+    margin-left:-50px;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom:50px;
+}
+
+
+/*statistics-end*/
+
+
+
+.title{
+        height: 700px;
+        background-color:#FFD17E ;
+}
+.title-bg{
+    padding: 10px;
+    position: relative;
+}
+
+img.dot3{
+    position: absolute;
+    top:0px ;
+    left:45% ;
+    transform:rotate(90deg);
+}
+
+img.dot4{
+    position: absolute;
+    top:37%;
+    right:40px;
+}
+
+img.undersusi1{
+    position:absolute;
+    top:37% ;
+    left: 35%;
+}
+
+   img.undersusi2{
+    position:absolute;
+    top:9%;
+    right:12%;
+}
+
+
+img.wavepurple1{
+    position: absolute;
+    top:12%;
+    left: 16%;
+}
+
+
+.title .title-inner{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin: auto;
+    margin-bottom:40%;
+
+}
+
+.title .title-inner img{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    margin-top:160px;
+    right:250px;
+    
+}
+
+.title .title-now{
+    padding: 270px 0px;
+       
+}
+.title .title-now h1{
+    margin-top:-60px;
+    font-size: 70px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.title .title-now p{
+    font-size: 25px;
+    font-weight: 400;
+    color:black;
+    width: 50%;
+    margin-bottom: 50px; 
+    
+}
+.title .title-now a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    padding: 12px 50px;
+    background-color: #21243D;
+    border-radius: 50px;
+    display: inline;
+    
+}
+
+
+
+
+/*title-end*/
+
+
+
+.testimonial .testimonial-inner{
+    background: url(./img/testimonialbg.png) no-repeat center/cover;
+    height: 700px;
+    position: relative;
+    
+}
+
+.testimonial .testimonial-content{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    
+
+}
+
+
+.testimonial .testimonial-content img{
+    padding: 30px 200px;
+
+}
+.testimonial .testimonial-content p{
+    font-size: 25px;
+    font-weight: 400;
+    color:white;
+    width: 56%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 0px; 
+    
+    
+
+}
+.testimonial .testimonial-content h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 185px;
+    
+}
+
+/*tetimonial-end*/
+
+
+
+/*
+.subscriber{
+    height: 700px;
+    background-color: #FFD17E;
+
+}*/
+.subscriber .subscriber-bg{
+    height: 700px;
+    background-color:#FFD17E;
+    padding: 10px 10px;
+    position: relative;
+}
+.subscriber-bg .threedot{
+    position: absolute;
+    left:8% ;
+    top: 30px;
+    transform:rotate(90deg);
+}
+.subscriber-bg .threedot1{
+    position: absolute;
+    right:5% ;
+    top: 60%;;
+}
+.subscriber-bg .circle{
+    position: absolute;
+    left:45% ;
+    top: 65%;
+}
+.subscriber-bg .circle1{
+    position: absolute;
+    right:5px ;
+    top: 30px;
+}
+.subscriber-bg .wavepurple{
+    position: absolute;
+    left:5% ;
+    top: 75%;
+}
+.subscriber-bg .wavepurple1{
+    position: absolute;
+    right:20% ;
+    top: 10%;
+}
+.subscriber .subscriber-title{
+    text-align: center;
+    color:black;
+    margin-top:100px 
+
+}
+.subscriber .subscriber-title h1{
+    font-size: 75px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.subscriber .subscriber-title p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    padding: 0px 140px;
+}
+.subscriber a{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding: 14px 50px;
+    background-color: #21243D;
+    border-radius: 50px;
+    display: inline;
+    margin-left:-50px;
+}
+input{
+    font-size: 20px;
+    width:550px;
+    padding:14px 20px;
+    border-radius:50px;
+}
+
+
+
+
+
+
+/*subscriber-end*/
+
+
+
+
+
+.title-here .title-here-bg{
+    height: 700px;
+    background-color: black;
+}
+.title-here .contact{
+    color: #fff;
+    width: 180%;
+    margin-top:70%;
+    margin-left:-90px
+
+}
+.title-here .contact h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+.title-here .contact p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+
+ul{
+    display: flex;
+    font-size: 25px;
+}
+
+ul li a i{
+    padding:10px ;
+    border-radius:50%;
+    background-color:white;
+    color:black;
+    margin-left:9px;
+}
+    
+.title-here .about{
+    color: #fff;
+    width: 50%;
+    margin-top:70%;
+    margin-left:120%;
+}
+.title-here .about h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+.title-here .about p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.title-here .services{
+    color: #fff;
+    width: 50%;
+    margin-top:70%;
+    margin-left:85%;
+}
+.title-here .services h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+.title-here .services p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.title-here .others{
+    color: #fff;
+    width: 50%;
+    margin-top:70%;
+    margin-left:55%;
+}
+.title-here .others h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+.title-here .others p{
+    font-size: 25px;
+    font-weight: 400;
+}
